@@ -1,1 +1,3 @@
-# Face_Recognition
+📌 Project Overview
+This repository showcases a Smart Face Recognition System, developed as part of a mini-project at our college. The goal is to identify individuals in real-time using deep learning techniques. A webcam is used to capture face images, and the system employs MobileFaceNet for lightweight facial feature extraction along with the ArcFace loss function to enhance recognition accuracy. Real-time identity matching is performed using cosine similarity between live and stored embeddings. The entire system — including data collection, preprocessing, model training, and live inference — was built and tested on a laptop using TensorFlow and OpenCV.
+As part of our upcoming major project, we plan to deploy this system on the Xilinx Kria KV260 FPGA board to achieve low-latency and energy-efficient processing for real-world surveillance applications.
